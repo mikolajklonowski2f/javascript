@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> Klonowski 3F</title>
+<script language="JavaScript">
+function WinOpen_Klonowski_1()
+{
+window.open("Klonowski_1.html","Klonowski_1","toolbar=no,directories=no,menubar=no,height=500,width=160,top=500,left=2150");
+}
+function WinOpen_Klonowski_2()
+{
+window.open("Klonowski_2.html","Klonowski_2","toolbar=no,directories=no,menubar=no,height=500,width=160,top=375,left=2450");
+}
+function WinOpen_Klonowski_3()
+{
+window.open("Klonowski_3.html","Klonowski_3","toolbar=no,directories=no,menubar=no,height=500,width=160,top=250,left=2800");
+}
+function WinOpen_Klonowski_4()
+{
+window.open("Klonowski_4.html","Klonowski_4","toolbar=no,directories=no,menubar=no,height=500,width=160,top=200,left=3200");
+}
+function okno_zamknij_klonowski_1()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+    <p style="font-size: 32;"> <font color="red"> wykonał: Mikołaj Klonowski mój numer w dzienniku 15, czyli<br> mam układ [(15)mod 4=0] układ 3 </font></p>
+<form>
+<input type="button_Klonowski_1" name="grafika1" value="grafika1" onclick="WinOpen_Klonowski_1(' ')">
+<input type="button_Klonowski_2" name="grafika2" value="grafika2" onclick="WinOpen_Klonowski_2(' ')">
+<input type="button_Klonowski_3" name="grafika3" value="grafika3" onclick="WinOpen_Klonowski_3(' ')">
+<input type="button_Klonowski_4" name="grafika4" value="grafika4" onclick="WinOpen_Klonowski_4(' ')"><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</form>
+</body>
+</html>
